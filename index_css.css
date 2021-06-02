@@ -189,7 +189,7 @@ body {
     box-sizing: border-box;
 }
 
-.goods {
+.goods, .recently-view {
     margin: 0 auto;
     margin-bottom: 9.02%;
     box-sizing: border-box;
@@ -197,12 +197,12 @@ body {
     height: 27.1%;
 }
 
-.goods__title {
+.goods__title, .recently-view__title {
     font-weight: 700;
     font-size: 24px;
 }
 
-.goods__scroll-wrapper {
+.goods__scroll-wrapper, .recently-view__scroll-wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -210,7 +210,7 @@ body {
     height:78.4%;
 }
 
-.goods__item {
+.goods__item, .recently-view__item {
     width: 22.97%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -224,26 +224,26 @@ body {
     transition: 0.2s ease-in-out;
 }
 
-.goods__item:hover {
+.goods__item:hover, .recently-view__item:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 14px 6px rgba(11, 12, 13, 0.2);
     transition: 0.2s ease-in-out;
 }
 
-.goods__item__picture img {
+.goods__item__picture img, .recently-view__item__picture img {
     display: block;
 }
 
-.goods__item__description {
+.goods__item__description, .recently-view__item__description {
     white-space: normal;
 }
 
-.goods__item__price {
+.goods__item__price, .recently-view__item__price {
     font-size: 21px;
     font-weight: 500;
 }
 
-.goods__item__link {
+.goods__item__link, .recently-view__item__link {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(241, 60, 110);
@@ -252,7 +252,7 @@ body {
     transition: 0.4s ease-in-out;
 }
 
-.goods__item__link:hover {
+.goods__item__link:hover, .recently-view__item__link:hover {
     background-color: rgb(0, 0, 0);
     transition: 0.4s ease-in-out;
 }
@@ -329,6 +329,7 @@ body {
 .impuls {
     width: 100%;
     height: 20.89%;
+    margin-bottom: 7.2%;
 }
 
 .impuls__content {
